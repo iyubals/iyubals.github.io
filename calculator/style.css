@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  background: rgb(201, 196, 196);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.one {
+  height: 100%;
+  width: auto;
+  background: rgb(63, 207, 111);
+  padding: 20px;
+  border-radius: 10px;
+  border: 2px dotted gray;
+}
+
+.A input {
+  border: 0;
+  outline: 0;
+  width: 70px;
+  height: 70px;
+  border-radius: 10px;
+  box-shadow: -7px -7px 12px rgba(255, 255, 255, 0, 1);
+  font-size: 20px;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.A input:hover {
+  cursor: pointer;
+  background-color: rgb(214, 197, 197);
+}
+
+.dua {
+  height: 350px;
+}
+
+.F input {
+  border: 0;
+  outline: 0;
+  width: 70px;
+  height: 70px;
+  border-radius: 10px;
+  box-shadow: -7px -7px 12px rgba(255, 255, 255, 0, 1);
+  font-size: 20px;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.G {
+  height: 100%;
+}
+
+.G input {
+  border: 0;
+  outline: 0;
+  width: 70px;
+  height: 100%;
+  border-radius: 10px;
+  box-shadow: -7px -7px 12px rgba(255, 255, 255, 0, 1);
+  font-size: 20px;
+  cursor: pointer;
+  margin: 10px;
+  background-color: rgb(31, 31, 211);
+  color: white;
+}
+
+.type {
+  display: flex;
+}
+
+.AC {
+  color: white;
+  background-color: brown;
+}
+
+form input {
+  background-color: rgb(46, 43, 43);
+  color: white;
+  height: 50px;
+  width: 100%;
+  font-size: 30px;
+  padding: 10px;
+  text-align: end;
+}

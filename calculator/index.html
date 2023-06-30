@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="one">
+        <div class="input">
+          <form name="form1"><input name="layar" /></form>
+        </div>
+        <div class="type">
+          <div class="satu">
+            <div class="A">
+              <input type="button" value="+" onclick="insert('+')" />
+              <input type="button" value="-" onclick="insert('-')" />
+              <input type="button" value="x" onclick="insert('*')" />
+            </div>
+            <div class="A">
+              <input type="button" value="7" onclick="insert(7)" />
+              <input type="button" value="8" onclick="insert(8)" />
+              <input type="button" value="9" onclick="insert(9)" />
+            </div>
+            <div class="A">
+              <input type="button" value="4" onclick="insert(4)" />
+              <input type="button" value="5" onclick="insert(5)" />
+              <input type="button" value="6" onclick="insert(6)" />
+            </div>
+            <div class="A">
+              <input type="button" value="1" onclick="insert(1)" />
+              <input type="button" value="2" onclick="insert(2)" />
+              <input type="button" value="3" onclick="insert(3)" />
+            </div>
+            <div class="A">
+              <input type="button" value="0" onclick="insert(0)" />
+              <input type="button" value="." onclick="insert('.')" />
+              <input class="AC" type="button" value="AC" onclick="hapus()" />
+            </div>
+          </div>
+          <div class="dua">
+            <div class="F">
+              <input type="button" value="/" onclick="insert('/')" />
+            </div>
+            <div class="G">
+              <input type="button" value="=" onclick="equal()" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
