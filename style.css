@@ -1,0 +1,67 @@
+.body-tpl {
+  background-color: rgb(149, 223, 165);
+  text-align: center;
+  border: 3px solid rgba(53, 53, 53, 0.603);
+  margin: 20px 30px;
+  border-radius: 20px;
+}
+
+hr {
+  width: 89%;
+  margin: 20px auto;
+  border: 1px solid rgba(53, 53, 53, 0.603);
+}
+
+.img {
+  width: 250px;
+  height: auto;
+  border: 5px solid rgba(53, 53, 53, 0.603);
+  border-radius: 50%;
+  margin-top: 17px;
+}
+
+.nama h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.nama span {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.ovr h2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-top: 50px;
+}
+
+.ovr span {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.sdp p {
+  width: 300px;
+  height: auto;
+  border: 3px solid rgba(53, 53, 53, 0.603);
+  border-radius: 10px;
+  margin: auto;
+}
+
+main {
+  width: 300px;
+  height: auto;
+  border: 3px solid rgba(53, 53, 53, 0.603);
+  border-radius: 10px;
+  margin: 5px auto;
+}
+
+aside {
+  width: 300px;
+  height: auto;
+  border: 3px solid rgba(53, 53, 53, 0.603);
+  border-radius: 10px;
+  margin: 5px auto;
+}
+
+.cpr {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
